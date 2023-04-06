@@ -166,6 +166,7 @@ display: block;
     border: none;
     border-radius: 4px;
     height: 56px;
+    
 }
 
 .order-button{
@@ -211,7 +212,19 @@ padding: 120px 0 ;
     color:var(--background-color);
     
 }
+.features-container{
+  padding: 120px 0;
+}
 
+.features-section-list{
+  display: flex;
+  gap: 24;
+
+}
+
+.features-list{
+  flex-basis: calc((100% - 3 * 24px) / 4); 
+}
 
 .features-title-item{
     font-family: 'Roboto',sans-serif;
@@ -223,6 +236,7 @@ color:var(--main-text-color) ;
 flex: none;
 
 }
+
 
 
 .features-text-item{
@@ -239,7 +253,9 @@ flex: none;
   background-color:var(--background-color);
 }
 
+.team-list{
 
+}
 .sub-title{
   font-family: 'Roboto',sans-serif;
 font-weight: 700;
