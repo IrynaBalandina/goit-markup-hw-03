@@ -13,6 +13,34 @@
 background-color:var(--background-color);
 }
 
+.container{
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+.header-container{
+  display: flex;
+}
+
+.header.nav{
+  display: flex;
+
+}
+
+.header-list{
+
+  display: flex;
+
+}
+
+.header-contacts{
+  display: flex;
+  gap: 40px;
+ 
+}
 
 .header-link{
   font-family: 'Raleway',sans-serif;
@@ -24,12 +52,11 @@ background-color:var(--background-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color:var(--iris);
- 
+
 }
 
 .header-logo{
   font-family: 'Raleway',sans-serif;
-
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -42,7 +69,6 @@ flex: none;
 
 }
 
-
 .nav-link{
   font-family: 'Roboto',sans-serif;
 font-weight: 500;
@@ -50,6 +76,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--main-text-color);
+margin-right: 40px;
+margin-left: 40px;
+margin-bottom: 25,5px;
+margin-bottom: 25,5px;
 }
 
 .link{
@@ -61,15 +91,13 @@ color:var(--main-text-color);
     color: #404bbf;
   }
 
-
- 
-
   .contacts{
     font-style: normal;
+   
   }
+
   .header-item{
     font-family: 'Roboto',sans-serif;
-  
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;  
@@ -82,26 +110,30 @@ color:var(--main-text-color);
   .list{
     list-style: none;
     text-decoration: none;
-  
   }
-  
   .contact{
     font-family: 'Roboto',sans-serif;
- 
-   
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+
       }
-.
 
+      .hero-container{
+       display: block;
+      }
 
-
-
+      .hero-body-title{
+        width: 496px;
+        margin: auto;
+        
+      }
       main{
         background-color: #FFFFFF;
       }
+
+
   .order-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -118,16 +150,23 @@ background-color: var(--ocean)
 }
 .order-button:hover,
 .order-button:focus {
-    background-color: #404BBF;
+    background-color:var(--ocean) ;
   }
 
   .order-button{
-    background-color:#4D5AE5 ;
-    color: #FFFFFF;
+    background-color:var(--iris);
+    color:var(--background-color);
     }
 
   .section-hero{
-    background-color:#2E2F42 ;
+    background-color:var(--main-text-color) ;
+  }
+
+  features-container{
+display: flex;
+  }
+  .list{
+    display: flex;
   }
   body{
     font-family: 'Roboto',sans-serif;
