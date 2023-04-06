@@ -36,7 +36,7 @@ background-color:var(--background-color);
 }
 
 .header.nav{
-  display: flex;
+
   align-items: center;
   
 
@@ -92,6 +92,7 @@ margin-left: 40px;
 margin-bottom: 25,5px;
 margin-bottom: 25,5px;
 padding: 24px o;
+display: block;
 }
 
 .link{
@@ -122,6 +123,9 @@ padding: 24px o;
   .list{
     list-style: none;
     text-decoration: none;
+   
+
+
   }
   .contact{
     font-family: 'Roboto',sans-serif;
@@ -292,6 +296,15 @@ color: var(--main-text-color);
   padding: 96px 120px;
 }
 
+.portfolio-list-container{
+
+}
+.filter-button-list{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 
 .filter-button{
   font-family:'Roboto',sans-serif ;
@@ -309,7 +322,7 @@ color: var(--main-text-color);
   color: var(--iris) ;
   background-color: var(--cloud);
   cursor: pointer;
- 
+  border: 1px solid var(--cornflower);
     }
 
   
@@ -329,7 +342,9 @@ color: var(--main-text-color);
     text-decoration: none;
     
   }
+.projects-list{
 
+}
   .features-subtitles{
     font-family: 'Roboto';
     font-weight: 500;
