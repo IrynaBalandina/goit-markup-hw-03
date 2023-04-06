@@ -296,9 +296,6 @@ color: var(--main-text-color);
   padding: 96px 120px;
 }
 
-.portfolio-list-container{
-
-}
 .filter-button-list{
   display: flex;
   justify-content: center;
@@ -323,6 +320,7 @@ color: var(--main-text-color);
   background-color: var(--cloud);
   cursor: pointer;
   border: 1px solid var(--cornflower);
+  border-radius: 4px;
     }
 
   
@@ -335,14 +333,24 @@ color: var(--main-text-color);
     .filter-button:hover,
     .filter-button:focus{
      color:var(--background-color);
-    
     }
+    .filter-button:hover,
+    .filter-button:focus{
+      border: 1px solid transparent;
+      border: 1px solid transparent
+    }
+
 
   .link{
     text-decoration: none;
     
   }
 .projects-list{
+  display:flex ;
+  flex-wrap: wrap;
+
+
+  
 
 }
   .features-subtitles{
