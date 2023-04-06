@@ -9,6 +9,9 @@
 
   }
 
+  img{
+    display: block;
+  }
 .header-hero{
 background-color:var(--background-color);
 }
@@ -284,6 +287,11 @@ color: var(--main-text-color);
   flex: none;
   
 }
+
+.portfolio-container{
+  padding: 96px 120px;
+}
+
 
 .filter-button{
   font-family:'Roboto',sans-serif ;
