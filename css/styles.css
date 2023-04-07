@@ -348,10 +348,8 @@ margin-bottom: 72px;
   
 }
 
-.portfolio-container{
-  padding-bottom: 96px;
-   padding-left: 120px; 
-   padding-right: 120px
+.portfolio-section{
+  padding: 96px 120px;
 }
 
 .filter-button-list{
