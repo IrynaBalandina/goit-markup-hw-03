@@ -281,7 +281,11 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--main-text-color);
 text-align: center;
-margin-bottom: 8px;
+margin-bottom: 72px;
+}
+
+.features-title-item{
+  text-align: center;
 }
 
 .features-text-item{
