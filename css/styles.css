@@ -419,3 +419,13 @@ margin-bottom: 72px;
     flex-basis: calc((100%-144px)/9);
    
   }
+  .card-iems{
+    padding: 32px 16px;
+    border: 1px solid var(--cornflower);
+    border-top: none; 
+
+  }
+
+  .features-subtitles{
+    margin-bottom: 8px ;
+  }
