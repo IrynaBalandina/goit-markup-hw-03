@@ -38,6 +38,10 @@ background-color:var(--background-color);
 .header.nav{
   display: flex;
   align-items: center;
+  
+}
+.header-link{
+  display: flex;
 }
 
 .header-list{
@@ -49,6 +53,7 @@ background-color:var(--background-color);
 .header-contacts{
   display: flex;
   gap: 40px;
+
 }
 
 .header-link{
@@ -134,7 +139,7 @@ display: block;
 
       }
 
-      .hero-container{
+      .section-hero{
        display: block;
        padding: 188px 0;
       }
@@ -142,6 +147,7 @@ display: block;
       .hero-body-title{
       max-width: 496px;
         margin: auto;
+        margin-bottom: 48px;
      
         
       }
@@ -164,6 +170,7 @@ display: block;
     border: none;
     border-radius: 4px;
     height: 56px;
+    margin:0 auto;
     
 }
 
