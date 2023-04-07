@@ -235,7 +235,7 @@ background-color: var(--ocean)
   justify-content: space-between;
 }
 
-.features-title-item{
+.features-title-items{
     font-family: 'Roboto',sans-serif;
 font-weight: 500;
 font-size: 20px;
@@ -285,6 +285,19 @@ flex: none;
 .team-section{
   padding: 120px 0;
 }
+
+.features-title-item{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color:var(--main-text-color) ;
+  flex: none;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
 .team-list{
   gap: 24px;
 }
