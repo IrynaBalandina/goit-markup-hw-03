@@ -217,8 +217,14 @@ background-color: var(--ocean)
     color:var(--background-color);
     
 }
+
+.features{
+  padding-top: 120px;
+   padding-bottom: 120px;
+}
+
 .features-container{
-  padding: 120px 0;
+ 
   display: flex;
 }
 
@@ -231,7 +237,7 @@ background-color: var(--ocean)
 }
 
 .features-item{
-  flex-basis: calc((100% - 3 * 24px) / 4) ;
+  width: calc((100% - 72px) / 4);
   
 }
 
@@ -358,7 +364,6 @@ margin-bottom: 72px;
   font-family: 'Roboto',sans-serif;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
   color:var(--cloud);
   flex: none;
