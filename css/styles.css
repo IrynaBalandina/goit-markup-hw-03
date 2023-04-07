@@ -233,7 +233,8 @@ background-color: var(--ocean)
 }
 
 .features-item{
-  flex-basis: calc((100%-72px)/4));
+  max-width: 264px;
+  
 }
 
 .features-title-items{
