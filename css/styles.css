@@ -257,6 +257,9 @@ flex: none;
   background-color:var(--background-color);
   padding-bottom: 120px;
 }
+.list-doing{
+  gap: 24px;
+}
 
 .sub-title{
   margin-bottom: 72px;
@@ -333,9 +336,10 @@ margin-bottom: 72px;
   
 }
 
-.portfolio-container{
-  padding: 96px 120px;
-}
+
+
+
+
 
 .filter-button-list{
   display: flex;
@@ -389,6 +393,7 @@ margin-bottom: 72px;
 .projects-list{
   display:flex ;
   flex-wrap: wrap;
+ 
 
 
   
