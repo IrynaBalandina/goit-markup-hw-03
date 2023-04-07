@@ -231,7 +231,8 @@ background-color: var(--ocean)
 }
 
 .features-list{
-  flex-basis: 
+  flex-basis: calc((100% - 72px) / 4))
+  justify-content: space-between;
 }
 
 .features-title-item{
@@ -243,7 +244,7 @@ letter-spacing: 0.02em;
 color:var(--main-text-color) ;
 flex: none;
 margin-bottom: 8px;
-text-align: center;
+text-align: start;
 
 }
 
