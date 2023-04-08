@@ -231,9 +231,6 @@ background-color: var(--ocean)
 .features-section-list{
   display: flex;
   gap: 24;
-  padding-left: 15px;
-  padding-right: 15px;
-
 }
 
 .features-item{
@@ -274,15 +271,6 @@ flex: none;
 .list-doing{
   gap: 24px;
   
-}
-
-.features-section-list{
- gap: 24px;
-}
-
-.features-list{
- max-width: 264px;
-
 }
 
 .sub-title{
