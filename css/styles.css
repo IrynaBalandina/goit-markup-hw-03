@@ -230,11 +230,11 @@ background-color: var(--ocean)
 
 .features-section-list{
   display: flex;
-  gap: 24;
+  gap: 24px;
 }
 
 .features-item{
-  width: calc((100% - 72px) / 4);
+max-width: 264px;
   
 }
 
@@ -360,7 +360,7 @@ margin-bottom: 72px;
 }
 
 .portfolio-section{
-  padding: 96px 120px;
+  padding: 96px 0 120px;
 }
 
 .filter-button-list{
