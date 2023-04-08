@@ -231,12 +231,11 @@ background-color: var(--ocean)
 .features-section-list{
   display: flex;
   gap: 24px;
+ 
 }
 
 .features-item{
-  flex-basis: calc((100% - 72px) / 4);
-
-  
+ flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .features-title-items{
