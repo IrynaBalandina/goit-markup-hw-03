@@ -234,7 +234,8 @@ background-color: var(--ocean)
 }
 
 .features-item{
-max-width: 264px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+
   
 }
 
