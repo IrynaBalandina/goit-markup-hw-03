@@ -286,6 +286,24 @@ margin: 0;
   padding: 120px 0;
   background-color: var(--cloud);
 }
+.sub-title{
+  font-family: 'Roboto',sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height:1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--main-text-color);
+text-align: center;
+margin-bottom: 72px;
+
+}
+
+
+.team-list{
+  gap: 24px;
+}
 .team-items{
   background-color: var(--background-color);
   border-radius: 0px 0px 4px 4px;
@@ -305,26 +323,12 @@ margin: 0;
   margin: 0;
 }
 
-.team-list{
-  gap: 24px;
-}
+
 .workers{
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px; 
 }
-.sub-title{
-  font-family: 'Roboto',sans-serif;
-font-weight: 700;
-font-size: 36px;
-line-height:1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--main-text-color);
-text-align: center;
-margin-bottom: 72px;
 
-}
 
 .features-text-item{
   font-family: 'Roboto',sans-serif;
