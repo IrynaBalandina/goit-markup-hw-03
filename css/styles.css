@@ -412,8 +412,6 @@ margin: 0;
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding: 12px 24px;
-  width: 126px;
-  height: 48px;
   color: var(--iris) ;
   background-color: var(--cloud);
   cursor: pointer;
