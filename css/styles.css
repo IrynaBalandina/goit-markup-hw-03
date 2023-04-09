@@ -32,7 +32,12 @@
     text-decoration: none; 
   }
 
-
+  h3{
+    margin: 0;
+  }
+ p{
+  margin: 0;
+}
 
 .header-hero{
 background-color:var(--background-color);
@@ -250,7 +255,6 @@ letter-spacing: 0.02em;
 color:var(--main-text-color) ;
 flex: none;
 margin-bottom: 8px;
-
 text-align: start;
 
 }
@@ -325,7 +329,7 @@ margin-bottom: 72px;
   flex: none;
   margin-bottom: 8px;
   text-align: center;
-  margin: 0;
+
 }
 
 .features-text-item{
