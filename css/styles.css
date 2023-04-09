@@ -6,7 +6,6 @@
  --iris: #4D5AE5 ;
  --ocean: #404BBF ;
  --secondary-text-color:#434455 ;
-
   }
 
   img{
@@ -33,9 +32,7 @@
     text-decoration: none; 
   }
 
-.sub-title{
-  margin-bottom: 72px;
-}
+
 
 .header-hero{
 background-color:var(--background-color);
@@ -326,7 +323,7 @@ text-transform: capitalize;
 color: var(--main-text-color);
 text-align: center;
 margin-bottom: 72px;
-margin: 0;
+
 }
 
 .features-text-item{
